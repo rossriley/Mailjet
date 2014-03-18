@@ -12,7 +12,7 @@ use Mailjet\Exception\Exception as ConnectionException;
 class Curl extends HttpConnection
 {
     private $strictCode     = array(0, 200, 201, 204);
-    private $permissiveCode = array(304);
+    private $permissiveCode = array(304, 400);
 
     /**
      * Execute a cURL request to Mailjet API
