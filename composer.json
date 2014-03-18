@@ -1,5 +1,5 @@
 {
-    "name": "dguyon/mailjet",
+    "name": "rossriley/mailjet",
     "type": "library",
     "description": "Mailjet API wrapper for PHP 5.3",
     "keywords": ["api","mailjet", "client"],
