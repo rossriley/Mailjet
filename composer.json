@@ -3,9 +3,9 @@
     "type": "library",
     "description": "Mailjet API wrapper for PHP 5.3",
     "keywords": ["api","mailjet", "client"],
-    "homepage": "https://github.com/dguyon/Mailjet",
+    "homepage": "https://github.com/rossriley/Mailjet",
     "license": "MIT",
-    "minimum-stability": "RC",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "David Guyon",
@@ -20,6 +20,9 @@
         "atoum/atoum": "dev-master"
     },
     "autoload": {
-        "psr-0": { "Mailjet": "src" }
+        "psr-4": {
+            "Mailjet": "src",
+            "Mailjet\\Tests" : "tests"
+        }
     }
 }
