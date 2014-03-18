@@ -22,7 +22,7 @@
     "autoload": {
         "psr-4": {
             "Mailjet\\": "src",
-            "Mailjet\\Tests" : "tests"
+            "Mailjet\\Tests\\" : "tests"
         }
     }
 }
